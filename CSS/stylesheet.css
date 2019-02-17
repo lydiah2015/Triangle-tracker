@@ -1,6 +1,7 @@
-body{
-  background-image: image("images/abstract-background-blur-255379 (1).jpg");
-}
+/* body{
+  background-image: url('images/background_image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
 h1{
 font-family: 'Gloria Hallelujah', cursive;
 font-size: 35px;
@@ -18,5 +19,10 @@ border:10px solid cyan;
 margin:20px;
 }
 #result{
-  button
+
+}
+/* body{
+background-image: image(images/smokes.jpg);
+} */
+body{background-image: image(/home/user/Desktop/Triangle-tracker/images/stack-438421_1280.jpg);
 }

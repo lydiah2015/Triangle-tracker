@@ -9,7 +9,7 @@ function triangle() {
 
   if(((sideA+sideB !=sideC) || (sideA+sideC!=sideB) || (sideB+sideC!=sideA)) && ((sideA+sideB<sideC) || (sideA+sideC<sideB) || (sideB+sideC<sideA))){
       // console.log("so far so good");
-      document.getElementById("result").innerHTML = "Not a triangle";
+      document.getElementById("result").innerHTML = 'Not a triangle<img src = "/home/user/Desktop/Triangle-tracker/images/sign-304093_1280.png">';
   }
   else if (sideA != sideB && sideB != sideC && sideA != sideC) {
     // console.log("working")
@@ -27,4 +27,7 @@ document.getElementById("result").innerHTML = 'Equilateral triangle <img src = "
     // console.log("we are done")
     document.getElementById("result").innerHTML = "Not a triangle"
   }
+  function reload(){
+  location.reload();
+}
 }
