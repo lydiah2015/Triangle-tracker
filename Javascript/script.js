@@ -13,7 +13,7 @@ function triangle() {
   }
   else if (sideA != sideB && sideB != sideC && sideA != sideC) {
     // console.log("working")
-    document.getElementById("result").innerHTML = "Scalene triangle";
+    document.getElementById("result").innerHTML = 'Scalene triangle <img src="/home/user/Desktop/Triangle-tracker/images/Screenshot from 2019-02-17 20-26-33.png">'';
   }
   else if (sideA === sideB && sideB === sideC && sideA === sideC) {
     // console.log("we are still working")
