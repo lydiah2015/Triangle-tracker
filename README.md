@@ -1,4 +1,4 @@
-##Triangle Tracker
+## Triangle Tracker
 {Triangle Tracker}
 ## Author
 Lydia Makini
@@ -40,5 +40,5 @@ https://github.com/lydiah2015/Triangle-tracker.git
 telephone :0793003140 as well as via github lydiah2015
 - Make contributions to the code.Copyright(c) {2019}{Makini Lydia}
 
-##License
-{Determine the license under which this application can be used. See below for more details on licensing.} Copyright (c) {2019} Makini
+## License
+-{Determine the license under which this application can be used. See below for more details on licensing.} Copyright (c) {2019} Makini
