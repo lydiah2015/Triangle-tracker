@@ -1,5 +1,5 @@
 body{
-  background-image:url(abstract-background-blur-255379.jpg);
+  background-image: image(/home/user/Desktop/Triangle-tracker/images/abstract-background-blur-255379 (1).jpg);
 }
 h1{
 font-family: 'Gloria Hallelujah', cursive;
@@ -11,4 +11,9 @@ p{
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 20px;
   text-align: center;
+}
+body{
+padding:15px;
+border:10px solid cyan;
+margin:20px;
 }
