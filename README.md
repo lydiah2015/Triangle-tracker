@@ -23,6 +23,7 @@ https://github.com/lydiah2015/Triangle-tracker.git
 - git
 
 ## BDD
+
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | Behaviour     | Input           | Output |
 | :------------ |:---------------:| -----:|
