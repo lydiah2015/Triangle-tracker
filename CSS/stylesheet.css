@@ -1,5 +1,5 @@
 body{
-  background-image: image(smokes.jpg);
+  background-image:url(abstract-background-blur-255379.jpg);
 }
 h1{
 font-family: 'Gloria Hallelujah', cursive;
@@ -11,9 +11,4 @@ p{
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 20px;
   text-align: center;
-}
-input{
-  padding: inherit;15px
-  background-color: blue;
-  
 }
