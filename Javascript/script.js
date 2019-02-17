@@ -10,17 +10,12 @@ function triangle() {
       console.log("so far so good");
       document.getElementById("result").innerHTML = "Not a triangle";
   }
-  else if (sideA != sideB && sideB != sideC && sideA != sideC)  {
-    alert("Working")
+  else if (sideA != sideB && sideB != sideC && sideA != sideC) {
+    // console.log("working")
+    document.getElementById("result").innerHTML = "Scalene triangle";
   }
-  else if(sideA + sideB > sideC || sideB + sideC > sideA || sideA + sideC > sideB){
-    alert("Still working")
-  }
-   else if (sideA === sideB && sideB === sideC && sideC === sideA){
-    alert("equilateral triangle");
-  }else if (sideA === sideB || sideB === sideC ||sideC === sideA) {
-    alert("isoslece triangle");
-  }else{
-    alert("not triangle");
+  else if (sideA === sideB && sideB === sideC && sideA === sideC) {
+    console.log("we are still working")
+document.getElementById("result").innerHTML = "Equilateral triangle";
   }
 }
