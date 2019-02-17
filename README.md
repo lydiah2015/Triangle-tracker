@@ -26,16 +26,11 @@ https://github.com/lydiah2015/Triangle-tracker.git
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | Behaviour     | Input           | Output |
 | :------------ |:---------------:| -----:|
-| Nothing typed on the filled      | _,_,_ | not a number |
-| If only one field is filled      | 2,_,_      |   not a number |
-| If two fields are filled | 2,4,_     |    not a number |
 | If all fields are not equal   |  2,3,4  | Scalene triangle  |
 | If two sides are equal  | 5,5,8 | Isosceles triangle  |
 | If three sides are equal  | 3,3,3 | Equilateral triangles |
 | If the sum of two sides is <= third | 4,4,8 | not a triangle  |
 | If one enters a non-numerical value  |  w,3,4 | not a number  |
-
-
 
 ## Known Bugs
 - There are no known bugs currently.The page works as expected.
