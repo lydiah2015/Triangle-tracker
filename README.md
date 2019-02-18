@@ -32,9 +32,9 @@ Here is a link to live site of this project on github pages:
 
 ## BDD
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
+<!-- | Left-Aligned  | Center Aligned  | Right Aligned | -->
 | Behaviour     | Input           | Output |
-:|:------------ :|:---------------:|: -----:|:
+|;------------; |;---------------;|; -----;|
 | If all fields are not equal   |  2,3,4  | Scalene triangle  |
 | If two sides are equal  | 5,5,8 | Isosceles triangle  |
 | If three sides are equal  | 3,3,3 | Equilateral triangles |
