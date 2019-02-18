@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 /* body{
   background-image: url('images/background_image.jpg');
   background-repeat: no-repeat;
   background-size: cover; */
+=======
+body{
+  background-image:url(abstract-background-blur-255379.jpg);
+}
+>>>>>>> 7cc5ec12020b70f25fda8f16d1b67e9a8e5eb08b
 h1{
 font-family: 'Gloria Hallelujah', cursive;
 font-size: 35px;
@@ -13,6 +19,7 @@ p{
   font-size: 20px;
   text-align: center;
 }
+<<<<<<< HEAD
 body{
 padding:15px;
 border:10px solid cyan;
@@ -26,3 +33,5 @@ background-image: image(images/smokes.jpg);
 } */
 /* body{background-image: image(/home/user/Desktop/Triangle-tracker/images/stack-438421_1280.jpg);
 } */
+=======
+>>>>>>> 7cc5ec12020b70f25fda8f16d1b67e9a8e5eb08b
