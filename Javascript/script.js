@@ -5,29 +5,26 @@ function triangle() {
   // console.log(sideB);
   var sideC = parseInt(document.getElementById('c').value);
   // console.log(sideC);
-  var triangles = ["Equilateral triangl","Isosceles triangle","Scalene triangle"];
+  var triangles = ["Equilateral triangle", "Isosceles triangle", "Scalene triangle"];
 
-  if(((sideA+sideB !=sideC) || (sideA+sideC!=sideB) || (sideB+sideC!=sideA)) && ((sideA+sideB<sideC) || (sideA+sideC<sideB) || (sideB+sideC<sideA))){
-      // console.log("so far so good");
-      document.getElementById("result").innerHTML = 'Not a triangle<img src = "/home/user/Desktop/Triangle-tracker/images/sign-304093_1280.png">';
-  }
-  else if (sideA != sideB && sideB != sideC && sideA != sideC) {
-    // console.log("working")
-    document.getElementById("result").innerHTML = 'Scalene triangle <img src="images/scalene.png">';
-  }
-  else if (sideA === sideB && sideB === sideC && sideA === sideC) {
-    // console.log("we are still working")
-document.getElementById("result").innerHTML = 'Equilateral triangle <img src = "/home/user/Desktop/Triangle-tracker/images/equilateral triangle.png">';
-  }
-  else if ((sideA === sideB != sideC) || (sideB === sideC != sideA) || (sideA === sideC != sideB)) {
-    // console.log("ts there")
-    document.getElementById("result").innerHTML = 'Isosceles triangle <img src = "/home/user/Desktop/Triangle-tracker/images/isosceles.png">'
-  }
-  else {
-    // console.log("we are done")
+  // if(((sideA+sideB !=sideC) || (sideA+sideC!=sideB) || (sideB+sideC!=sideA)) && ((sideA+sideB<sideC) || (sideA+sideC<sideB) || (sideB+sideC<sideA))){
+  //     // console.log("so far so good");
+  //     document.getElementById("result").innerHTML = 'Not a triangle<img src = "/home/user/Desktop/Triangle-tracker/images/sign-304093_1280.png">';
+  // }
+
+  if (sideA + sideB > sideC && sideB + sideC && sideA + sideC) {
+    if (sideA == sideB && sideB == sideC && sideA == sideC) {
+      document.getElementById("result").innerHTML = 'Equilateral triangle <img src = "/home/user/Desktop/Triangle-tracker/images/equilateral triangle.png">';
+    } else if ((sideA == sideB) || (sideB == sideC) || (sideA == sideC)) {
+      document.getElementById("result").innerHTML = 'Isosceles triangle <img src = "/home/user/Desktop/Triangle-tracker/images/isosceles.png">'
+    } else {
+      document.getElementById("result").innerHTML = "Scalene triangle"
+    }
+  } else {
     document.getElementById("result").innerHTML = "Not a triangle"
   }
-  function reload(){
-  location.reload();
-}
+
+  function reload() {
+    location.reload();
+  }
 }
